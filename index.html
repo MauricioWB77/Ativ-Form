@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body style="text-align: center;">
+    
+    <form action="agradecimento.html">
+        <h1>Cadastro de usuário</h1>
+
+        <label for="nome"><strong>Nome Completo:</strong></label> <br>
+        <input type="text" id="nome" name="nome" required>
+        <br> <br>
+
+        <label for="nascimento"><strong>Data de Nascimento:</strong></label> <br>
+        <input type="data" id="nascimento" name="nascimento" required>
+        <br> <br>
+
+        <label for="cpf"><strong>CPF:</strong></label> <br>
+        <input type="text" id="cpf" name="cpf" placeholder="Apenas números (11 digitos)" maxlength="11" minlength="11" required>
+        <br> <br>
+
+        <label for="genero"><strong>Gênero:</strong></label> <br>
+        <select id="genero" name="genero" required>
+            <option value="">selecione...</option>
+            <option value="Masculino"></option>
+            <option value="Feminino"></option>
+            <option value="Outro"></option>
+        </select>
+        <br> <br>
+
+        <label for="telefone">Telefone:</label> <br>
+        <input type="tel" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX" required>
+        <br> <br>
+
+        <label for="email"><strong>E-mail:</strong></label><br>
+        <input type="email" id="email" name="email" required>
+        <br> <br>
+
+        <label for="cidade"><strong>Cidade:</strong></label><br>
+        <input type="text" id="cidade" name="cidade" required>
+        <br> <br>
+
+        <label for="uf"><strong>UF (Estado):</strong></label><br>
+        <select id="uf" name="uf" required>
+            <option value="">Selecione</option>
+            <option value="AC">AC</option>
+            <option value="AL">AL</option>
+            <option value="AP">AP</option>
+            <option value="AM">AM</option>
+            <option value="BA">BA</option>
+            <option value="CE">CE</option>
+            <option value="DF">DF</option>
+            <option value="ES">ES</option>
+            <option value="GO">GO</option>
+            <option value="MA">MA</option>
+            <option value="MT">MT</option>
+            <option value="MS">MS</option>
+            <option value="MG">MG</option>
+            <option value="PA">PA</option>
+            <option value="PB">PB</option>
+            <option value="PR">PR</option>
+            <option value="PE">PE</option>
+            <option value="PI">PI</option>
+            <option value="RJ">RJ</option>
+            <option value="RN">RN</option>
+            <option value="RS">RS</option>
+            <option value="RO">RO</option>
+            <option value="RR">RR</option>
+            <option value="SC">SC</option>
+            <option value="SP">SP</option>
+            <option value="SE">SE</option>
+            <option value="TO">TO</option>
+        </select>
+        <br> <br>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+    
+      
+
+
+</body>
+</html>
